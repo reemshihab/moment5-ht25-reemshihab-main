@@ -2,17 +2,13 @@
 
 "use strict"; 
 
-/*  Delar till ej obligatorisk funktionalitet, som kan ge poäng för högre betyg
-*   Radera rader för funktioner du vill visa på webbsidan. */
-document.getElementById("player").style.display = "none";      // Radera denna rad för att visa musikspelare
-document.getElementById("shownumrows").style.display = "none"; // Radera denna rad för att visa antal träffar
 
 /* Här under börjar du skriva din JavaScript-kod */
 // === Sveriges Radio - Moment 5 ===
 // Skapad av [Reem Shihab]
 
 
-// Länk till APi:et
+// URL Länk till  sverige radios APi:et
 const apiUrl = "https://api.sr.se/api/v2";
 
 // Hämtar element från HTML-filen
